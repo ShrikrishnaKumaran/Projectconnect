@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Collaborators - ProjectConnect</title>
+    <!-- The path is now corrected to look inside the 'css' folder -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="theme-dark-red">
+
+    <header class="site-header">
+        <div class="container">
+            <a href="index.html" class="logo">ProjectConnect</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="browse.html">Browse</a></li>
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="browse-section">
+            <div class="container">
+                <h2>Find Your Next Teammate</h2>
+                
+                <div class="filter-bar">
+                    <input type="text" placeholder="Search by name or skill...">
+                    <select>
+                        <option>Filter by Skill</option>
+                        <option>Python</option>
+                        <option>Machine Learning</option>
+                        <option>Web Dev</option>
+                        <option>UI/UX Design</option>
+                    </select>
+                    <select>
+                        <option>Filter by Year</option>
+                        <option>1st Year</option>
+                        <option>2nd Year</option>
+                        <option>3rd Year</option>
+                        <option>4th Year</option>
+                    </select>
+                    <button class="button button-primary">Search</button>
+                </div>
+
+                <div class="student-grid">
+                    <div class="student-card">
+                        <img src="assets/images/img.jpg" alt="Profile Picture">
+                        <h3>Shrikrishna</h3>
+                        <p class="college">Sastra, 2nd Year</p>
+                        <div class="skills">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Data Science</span>
+                        </div>
+                        <a href="profile.html" class="button button-secondary">View Profile</a>
+                    </div>
+                    <div class="student-card">
+                        <img src="https://i.pravatar.cc/150?u=a042581f4e29026703d" alt="Profile Picture">
+                        <h3>Punith</h3>
+                        <p class="college">Sastra, 3rd Year</p>
+                        <div class="skills">
+                            <span>Full-Stack Dev</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <a href="profile.html" class="button button-secondary">View Profile</a>
+                    </div>
+                    <!-- Add more student cards here... -->
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 ProjectConnect. Your collaboration journey starts here.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
